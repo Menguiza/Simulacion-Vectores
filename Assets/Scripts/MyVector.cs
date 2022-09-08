@@ -1,11 +1,24 @@
-using System.Reflection;
 using UnityEngine;
 
 [System.Serializable]
 public struct MyVector
 {
+    public float Magnitude => Mathf.Sqrt(x * x + y * y);
     public float x, y;
-
+    
+    public MyVector Normalized
+    {
+        get
+        {
+            float distance = Magnitude;
+            if (distance < 0.0001f)
+            {
+                return new MyVector(0, 0);
+            }
+            return new MyVector(x / distance, y / distance);
+        }
+    }
+    
     public MyVector(float x, float y)
     {
         this.x = x;
