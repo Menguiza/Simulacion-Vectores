@@ -442,14 +442,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 696764493}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cbef83972340c644ebcc24aa3a35faed, type: 3}
+  m_Script: {fileID: 11500000, guid: 5e94099ddff48dc4482dbb6c0c1b59fd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mass: 1
-  wind:
-    x: 0
-    y: 0
-  damping: 1
+  amplitude: 2
+  period: 1
 --- !u!1 &1701312996
 GameObject:
   m_ObjectHideFlags: 0
