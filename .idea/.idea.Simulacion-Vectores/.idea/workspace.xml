@@ -11,6 +11,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/LookAtMultiple.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Polar.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PolarExp.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Tweens.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -71,7 +72,7 @@
       <workItem from="1662600764637" duration="259000" />
       <workItem from="1664142909527" duration="3634000" />
       <workItem from="1664169585428" duration="1705000" />
-      <workItem from="1667185424664" duration="962000" />
+      <workItem from="1667185424664" duration="2905000" />
     </task>
     <servers />
   </component>
